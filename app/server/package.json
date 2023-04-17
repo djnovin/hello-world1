@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node server",
+    "dev": "nodemon server",
+    "prisma:generate": "npx prisma generate",
+    "prisma:studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.12.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
