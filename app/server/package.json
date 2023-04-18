@@ -7,7 +7,8 @@
     "build": "node server",
     "dev": "nodemon server",
     "prisma:generate": "npx prisma generate",
-    "prisma:studio": "npx prisma studio"
+    "prisma:studio": "npx prisma studio",
+    "prisma:migrate": "npx prisma migrate dev"
   },
   "keywords": [],
   "author": "",
